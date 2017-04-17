@@ -1,0 +1,63 @@
+  
+@font-face {
+  font-family: "MuseoSansCyrl700";
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/MuseoSansCyrl700.ttf');
+ }
+ 
+ 
+@font-face {
+  font-family: "MuseoSansCyrl_300";
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/MuseoSansCyrl_300.ttf');
+ }
+ 
+ 
+@font-face {
+  font-family: "MuseoSansCyrl_500";
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/MuseoSansCyrl_500.ttf');
+ }
+
+ 
+ 
+@font-face {
+  font-family: "Russia-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Russia-Bold.ttf');
+ }
+
+@font-face {
+  font-family: "Russia-LightItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Russia-LightItalic.otf');
+ }
+
+@font-face {
+  font-family: "Russia-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Russia-Light.otf');
+}
+
+@font-face {
+  font-family: "Russia-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Russia-Bold.ttf');
+}
+
+
+@font-face {
+  font-family: "Russia-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Russia-Regular.otf');
+}
+
+/*# sourceMappingURL=fonts.css.map */

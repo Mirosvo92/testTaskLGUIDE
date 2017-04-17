@@ -1,0 +1,1211 @@
+@import url(reset.css);
+/* container */
+.container {
+  position: relative;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  padding: 0px 10px;
+}
+
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+.logo {
+  float: left;
+  padding-top: 30px;
+}
+
+/* main-nav */
+.main-nav {
+  float: left;
+}
+.main-nav ul {
+  display: inline-block;
+  padding-top: 75px;
+  margin-left: 58px;
+}
+.main-nav ul li {
+  display: inline;
+  padding-left: 24px;
+}
+.main-nav ul li a {
+  font-family: MuseoSansCyrl700;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #212121;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.main-nav ul li a:hover {
+  color: #f79038;
+}
+.main-nav ul .hov-fc {
+  position: relative;
+  z-index: 100;
+}
+
+body .main-nav .hov-fc_active {
+  position: absolute;
+  z-index: 99;
+  width: 24px;
+  height: 51px;
+  top: -24px;
+  left: 52px;
+  display: none;
+}
+
+/* languages */
+.languages {
+  float: right;
+  padding-top: 73px;
+  padding-right: 25px;
+}
+.languages .lang_ru {
+  font-family: MuseoSansCyrl700;
+  font-size: 16px;
+  line-height: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 12px;
+}
+.languages .lang_eng {
+  font-family: MuseoSansCyrl700;
+  font-size: 16px;
+  line-height: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+  color: #a1a8ab;
+  margin-right: -25px;
+}
+
+/* VIDEO AND BOOKING */
+.photo-with-guide {
+  padding-top: 87px;
+  float: left;
+}
+.photo-with-guide h2 {
+  width: 365px;
+  height: 101px;
+  color: #212121;
+  font-family: Russia-Bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  padding-left: 40px;
+}
+.photo-with-guide h3 {
+  width: 381px;
+  height: 39px;
+  color: #b8b9ba;
+  font-family: MuseoSansCyrl_300;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 36px;
+  padding-left: 40px;
+}
+
+.wr-booking-butt {
+  padding-top: 80px;
+  width: 210px;
+  height: 56px;
+  padding-left: 40px;
+}
+
+.booking-butt {
+  padding: 19px 20px;
+  color: white;
+  font-family: MuseoSansCyrl_500;
+  font-size: 16px;
+  line-height: 14px;
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #75d250 0%, #7be451 100%, #86e960 100%);
+  background-image: linear-gradient(to top, #75d250 0%, #7be451 100%, #86e960 100%);
+  border-radius: 4px;
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+.booking-butt:hover {
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  border-radius: 4px;
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08);
+}
+.booking-butt:active {
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+/* photographer and text */
+.container-max {
+  position: relative;
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  padding: 0px 10px;
+}
+
+.photographer {
+  position: relative;
+  display: inline-block;
+}
+.photographer .photo {
+  position: absolute;
+  left: -27px;
+  top: 7px;
+  z-index: 99;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.photographer p {
+  width: 171px;
+  height: 45px;
+  color: #b8b9ba;
+  font-family: Russia-LightItalic;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 27px;
+  z-index: 100;
+  position: relative;
+  margin-left: 211px;
+  margin-top: 96px;
+}
+
+/* phoro hotel */
+.phoro-hotel {
+  float: left;
+  height: 543px;
+  overflow-y: hidden;
+  margin-top: 50px;
+  margin-left: 132px;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #edeff0;
+  float: left;
+}
+
+/* video */
+.video-about-us {
+  position: absolute;
+  top: 33%;
+  left: 36%;
+  width: 310px;
+  height: 310px;
+  text-align: center;
+  background-image: url(../img/video_bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.video-about-us p {
+  color: #7f8992;
+  font-family: Russia-Light;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 54px;
+  margin-top: 70px;
+}
+
+.play-video-wr {
+  padding-top: 39px;
+  margin-left: -14px;
+}
+.play-video-wr .play-video-button {
+  padding: 41px 51px;
+  border-radius: 50%;
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #75d250 0%, #7be451 100%, #86e960 100%);
+  background-image: linear-gradient(to top, #75d250 0%, #7be451 100%, #86e960 100%);
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  background-image: url(../img/butt_play.svg);
+  background-repeat: no-repeat;
+  background-position-x: 56%;
+  background-position-y: 49%;
+}
+.play-video-wr .play-video-button:hover {
+  background-color: #fb943d;
+  background-image: -webkit-linear-gradient(bottom, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  border-radius: 50%;
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08);
+  background-image: url(../img/butt_play.svg);
+  background-repeat: no-repeat;
+  background-position-x: 56%;
+  background-position-y: 49%;
+}
+.play-video-wr .play-video-button:active {
+  background-color: #fb943d;
+  background-image: -webkit-linear-gradient(bottom, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  border-radius: 50%;
+  box-shadow: none;
+  background-image: url(../img/butt_play.svg);
+  background-repeat: no-repeat;
+  background-position-x: 56%;
+  background-position-y: 49%;
+}
+.play-video-wr .look {
+  color: #f79038;
+  font-family: MuseoSansCyrl_300;
+  font-size: 16px;
+  line-height: 27px;
+  cursor: pointer;
+  margin-top: 48px;
+}
+
+.video-modal-window {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+}
+
+.video-wr {
+  margin: 6% auto;
+  width: 800px;
+  height: 500px;
+}
+
+.close-video {
+  color: #fff;
+  font-size: 50px;
+  font-family: MuseoSansCyrl_300;
+  cursor: pointer;
+  position: absolute;
+  top: 25px;
+  right: 55px;
+}
+
+/* TOUR INFARMATION */
+.abou-tour {
+  color: #212121;
+  font-family: Russia-Bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  height: 125px;
+  width: 89%;
+  margin-top: 113px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/two_cicle.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 48px;
+}
+
+.photo-description {
+  width: 100%;
+  margin-top: 25px;
+  margin-left: 100px;
+}
+
+.photo-town {
+  float: left;
+}
+
+.description {
+  float: left;
+  text-align: left;
+  width: 375px;
+  margin-left: 80px;
+}
+.description h4 {
+  color: #212121;
+  font-family: Russia-Bold;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding-top: 6px;
+  width: 270px;
+}
+.description p {
+  color: #7f8992;
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 24px;
+}
+
+/* CALEBDAR AND DETAILS */
+.main-calendar {
+  margin-top: 52px;
+}
+
+.wr-included-details {
+  float: left;
+}
+
+/* details */
+.details {
+  margin-left: 114px;
+}
+.details h3 {
+  color: #212121;
+  font-family: Russia-Bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 114px;
+}
+
+.days {
+  margin-top: 20px;
+}
+.days img {
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: block;
+}
+.days h4 {
+  color: #212121;
+  font-family: Russia-Bold;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-left: 65px;
+  line-height: 10px;
+}
+.days p {
+  color: #7f8992;
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 27px;
+  width: 216px;
+  margin-left: 65px;
+  line-height: 45px;
+}
+
+.clock {
+  margin-top: 36px;
+}
+.clock img {
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: block;
+  letter-spacing: 1px;
+}
+.clock h4 {
+  color: #212121;
+  font-family: Russia-Bold;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-left: 65px;
+  line-height: 7px;
+  letter-spacing: 1px;
+}
+.clock p {
+  color: #7f8992;
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 27px;
+  width: 216px;
+  margin-left: 65px;
+  line-height: 53px;
+}
+
+.meeting-point {
+  margin-top: 36px;
+}
+.meeting-point img {
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: block;
+  letter-spacing: 1px;
+}
+.meeting-point h4 {
+  color: #212121;
+  font-family: Russia-Bold;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 45px;
+  text-transform: uppercase;
+  margin-left: 65px;
+  line-height: 14px;
+  letter-spacing: 1px;
+}
+.meeting-point p {
+  color: #7f8992;
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 27px;
+  width: 216px;
+  margin-left: 65px;
+  line-height: 63px;
+}
+.meeting-point .point-text {
+  line-height: 7px;
+  color: #7f8992;
+  font-family: Russia-Light;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.group-members {
+  margin-top: 50px;
+}
+.group-members img {
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: block;
+  letter-spacing: 1px;
+}
+.group-members h4 {
+  color: #212121;
+  font-family: Russia-Bold;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-left: 65px;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+.group-members p {
+  color: #7f8992;
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 27px;
+  width: 216px;
+  margin-left: 65px;
+  line-height: 45px;
+}
+
+/* included */
+.included-tur {
+  margin-top: 80px;
+  margin-left: 71px;
+}
+.included-tur h2 {
+  color: #212121;
+  font-family: Russia-Bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-left: 35px;
+}
+
+.included-tur-description {
+  margin-top: 44px;
+}
+.included-tur-description .desc-hiking span {
+  color: #7be352;
+  font-family: Russia-Light;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 24px;
+  float: left;
+}
+.included-tur-description .desc-hiking h4 {
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f79038;
+  margin-left: 40px;
+  line-height: 16px;
+}
+.included-tur-description .desc-hiking p {
+  width: 267px;
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #9fa3a7;
+  margin-left: 40px;
+  margin-top: 8px;
+  letter-spacing: 1px;
+}
+
+/* min-photo */
+.min-photo {
+  margin-top: 32px;
+}
+.min-photo span {
+  color: #7be352;
+  font-family: Russia-Light;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 28px;
+  float: left;
+}
+.min-photo p {
+  width: 255px;
+  height: 125px;
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 18px;
+  color: #9fa3a7;
+  margin-left: 40px;
+  margin-top: -3px;
+  letter-spacing: 1px;
+}
+.min-photo p span {
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f79038;
+  float: none;
+}
+
+/* tasting */
+.tasting {
+  margin-top: -15px;
+}
+.tasting span {
+  color: #7be352;
+  font-family: Russia-Light;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  float: left;
+}
+.tasting p {
+  width: 262px;
+  height: 125px;
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #9fa3a7;
+  margin-left: 40px;
+  margin-top: 8px;
+  letter-spacing: 1px;
+}
+.tasting p span {
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f79038;
+  float: none;
+}
+
+/* advice */
+.advice {
+  margin-top: -15px;
+}
+.advice span {
+  color: #7be352;
+  font-family: Russia-Light;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  float: left;
+}
+.advice p {
+  width: 270px;
+  height: 125px;
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #9fa3a7;
+  margin-left: 40px;
+  margin-top: 8px;
+  letter-spacing: 1px;
+}
+.advice p span {
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f79038;
+  float: none;
+}
+
+/* souvenir */
+.souvenir {
+  margin-top: -58px;
+}
+.souvenir span {
+  color: #7be352;
+  font-family: Russia-Light;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  float: left;
+}
+.souvenir p {
+  width: 270px;
+  height: 125px;
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #9fa3a7;
+  margin-left: 40px;
+  margin-top: 8px;
+  letter-spacing: 1.2px;
+}
+.souvenir p span {
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f79038;
+  float: none;
+}
+
+.photos-shoes {
+  width: 400px;
+  height: 400px;
+  background-image: url(../img/sneakers_bg.svg);
+  background-repeat: no-repeat;
+  background-position-x: top;
+  background-position-y: center;
+}
+.photos-shoes img {
+  margin-top: 87px;
+  margin-left: 124px;
+}
+
+/* calendar of events */
+.wr-calendar-events-about {
+  width: 768px;
+  min-height: 855px;
+  float: right;
+  background-image: url(../img/bg_calendar1.svg);
+  background-repeat: no-repeat;
+  background-position-x: 97px;
+  background-position-y: 30px;
+  position: relative;
+}
+
+.calendar-events {
+  margin-top: 125px;
+  margin-left: 235px;
+}
+
+/* settings of calendar  */
+body .datepicker-here .datepicker-inline .datepicker {
+  border: none;
+  color: #b8b9ba;
+  font-family: MuseoSansCyrl_500;
+  font-size: 16px;
+  line-height: 27px;
+  background: none;
+}
+body .datepicker-here .datepicker-inline .datepicker .datepicker--nav {
+  width: 141%;
+  border: none;
+}
+body .datepicker-here .datepicker-inline .datepicker .datepicker--nav .datepicker--nav-action:hover {
+  background-color: #fff;
+}
+body .datepicker-here .datepicker-inline .datepicker .datepicker--nav .datepicker--nav-action svg path:hover {
+  stroke: #fb943d;
+}
+
+body .datepicker--content {
+  width: 141%;
+}
+
+body .datepicker--nav-title {
+  color: #212121;
+  font-family: Russia-Regular;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 27px;
+}
+body .datepicker--nav-title i {
+  color: #212121;
+  font-family: Russia-Regular;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+body .datepicker--day-name {
+  color: #7f8992;
+  font-family: Russia-Bold;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+body .datepicker--cell-day {
+  background-color: #e5e5e6;
+  width: 13.5%;
+  height: 20%;
+}
+
+body .datepicker--cells {
+  width: 366px;
+  height: 256px;
+}
+
+body .datepicker--cell {
+  border-radius: 0px;
+  border: 0.5px solid #fff;
+}
+
+body .free-places {
+  background-color: #7be352;
+}
+
+body .busy-places {
+  background-color: #f76e55;
+}
+
+/* colors  of calendar (descr) */
+.colors-calendar {
+  margin-top: 37px;
+  margin-left: 243px;
+}
+.colors-calendar .calendar-green {
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 34px;
+}
+.colors-calendar .calendar-green span {
+  color: #7be352;
+  font-weight: 900;
+}
+.colors-calendar .calendar-tomato {
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 39px;
+}
+.colors-calendar .calendar-tomato span {
+  color: #f76e55;
+  font-weight: 900;
+}
+.colors-calendar .calendar-grey {
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 40px;
+}
+.colors-calendar .calendar-grey span {
+  color: #b8b9ba;
+  font-weight: 900;
+}
+
+/* button reserve place */
+.wr-button-reserve {
+  margin-left: 248px;
+  margin-top: 85px;
+}
+.wr-button-reserve a {
+  padding: 19px 20px;
+  color: white;
+  font-family: MuseoSansCyrl_500;
+  font-size: 16px;
+  line-height: 14px;
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #75d250 0%, #7be451 100%, #86e960 100%);
+  background-image: linear-gradient(to top, #75d250 0%, #7be451 100%, #86e960 100%);
+  border-radius: 4px;
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+.wr-button-reserve a:hover {
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  border-radius: 4px;
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08);
+}
+.wr-button-reserve a:active {
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.watch-img {
+  position: absolute;
+  right: 52px;
+  bottom: 54px;
+}
+
+/* about company  */
+.wr-about-company {
+  width: 400px;
+  min-height: 730px;
+  float: right;
+  text-align: left;
+  width: 680px;
+  margin-top: 60px;
+  background-image: url(../img/bg_about.svg);
+  background-repeat: no-repeat;
+  background-position-x: 11px;
+  background-position-y: 42px;
+  position: relative;
+}
+.wr-about-company .about-company-text {
+  margin-top: 22px;
+  margin-left: 157px;
+}
+.wr-about-company .about-company-text h2 {
+  color: #212121;
+  font-family: Russia-Bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 46px;
+}
+.wr-about-company .about-company-text p:nth-child(2) {
+  color: #9fa3a7;
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 46px;
+  width: 470px;
+}
+.wr-about-company .about-company-text p:nth-child(3) {
+  color: #9fa3a7;
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 21px;
+  width: 470px;
+}
+.wr-about-company .about-company-text p:nth-child(4) {
+  color: #9fa3a7;
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 25px;
+  width: 470px;
+}
+.wr-about-company .about-company-text p:nth-child(5) {
+  color: #9fa3a7;
+  font-family: MuseoSansCyrl_300;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 24px;
+  width: 470px;
+}
+
+/* ticket prices */
+.ticket-prices {
+  text-align: center;
+}
+.ticket-prices h2 {
+  padding-top: 15px;
+  color: #212121;
+  font-family: Russia-Bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+/* ticket_prices-adults */
+.ticket-prices-adults {
+  width: 368px;
+  height: 560px;
+  background-color: white;
+  border: 2px solid #eceded;
+  margin-top: 69px;
+  display: inline-block;
+  box-sizing: border-box;
+  float: left;
+}
+.ticket-prices-adults h3 {
+  color: #212121;
+  font-family: Russia-Bold;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 46px;
+  text-transform: uppercase;
+  margin-top: 46px;
+  letter-spacing: 1px;
+}
+.ticket-prices-adults p {
+  color: #9fa3a7;
+  font-family: Russia-LightItalic;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 26px;
+  margin-top: -5px;
+}
+.ticket-prices-adults img {
+  margin-top: 12px;
+}
+.ticket-prices-adults .wr-adults-prise {
+  margin: 0 auto;
+  position: relative;
+  width: 140px;
+  height: 140px;
+  background-color: white;
+  text-align: center;
+  border-radius: 50%;
+  margin-top: -44px;
+}
+.ticket-prices-adults .wr-adults-prise .adults-price {
+  width: 76px;
+  height: 43px;
+  font-size: 60px;
+  line-height: 46px;
+  color: #212121;
+  font-family: Russia-Regular;
+  font-weight: 400;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 49px;
+  margin-left: -24px;
+}
+.ticket-prices-adults .wr-adults-prise .adults-price-dollar {
+  font-size: 30px;
+  font-family: Russia-LightItalic;
+  display: inline-block;
+  position: absolute;
+  margin: 0 auto;
+  margin-top: 51px;
+}
+.ticket-prices-adults a {
+  padding: 19px 20px;
+  color: white;
+  font-family: MuseoSansCyrl_500;
+  font-size: 16px;
+  line-height: 38px;
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #75d250 0%, #7be451 100%, #86e960 100%);
+  background-image: linear-gradient(to top, #75d250 0%, #7be451 100%, #86e960 100%);
+  border-radius: 4px;
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+.ticket-prices-adults a:hover {
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  border-radius: 4px;
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08);
+}
+.ticket-prices-adults a:active {
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+/* ticket_prices-groups */
+.ticket-prices-groups {
+  width: 368px;
+  height: 560px;
+  background-color: white;
+  border: 2px solid #eceded;
+  margin-top: 69px;
+  display: inline-block;
+  margin-left: 29px;
+  float: left;
+}
+.ticket-prices-groups h3 {
+  color: #212121;
+  font-family: Russia-Bold;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 46px;
+  text-transform: uppercase;
+  margin-top: 46px;
+  letter-spacing: 1px;
+}
+.ticket-prices-groups p {
+  color: #9fa3a7;
+  font-family: Russia-LightItalic;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 26px;
+  margin-top: -5px;
+}
+.ticket-prices-groups img {
+  margin-top: 12px;
+}
+.ticket-prices-groups .wr-prices-groups {
+  margin: 0 auto;
+  position: relative;
+  width: 140px;
+  height: 140px;
+  background-color: white;
+  text-align: center;
+  border-radius: 50%;
+  margin-top: -44px;
+}
+.ticket-prices-groups .wr-prices-groups .prices-groups {
+  width: 76px;
+  height: 43px;
+  font-size: 60px;
+  line-height: 46px;
+  color: #212121;
+  font-family: Russia-Regular;
+  font-weight: 400;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 49px;
+  margin-left: -24px;
+}
+.ticket-prices-groups .wr-prices-groups .prices-groups-dollar {
+  font-size: 30px;
+  font-family: Russia-LightItalic;
+  display: inline-block;
+  position: absolute;
+  margin: 0 auto;
+  margin-top: 51px;
+}
+.ticket-prices-groups a {
+  padding: 19px 20px;
+  color: white;
+  font-family: MuseoSansCyrl_500;
+  font-size: 16px;
+  line-height: 38px;
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #75d250 0%, #7be451 100%, #86e960 100%);
+  background-image: linear-gradient(to top, #75d250 0%, #7be451 100%, #86e960 100%);
+  border-radius: 4px;
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+.ticket-prices-groups a:hover {
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  border-radius: 4px;
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08);
+}
+.ticket-prices-groups a:active {
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+/* ticket-prices-children */
+.ticket-prices-children {
+  width: 368px;
+  height: 560px;
+  background-color: white;
+  border: 2px solid #eceded;
+  margin-top: 69px;
+  display: inline-block;
+  margin-left: 29px;
+  float: left;
+}
+.ticket-prices-children h3 {
+  color: #212121;
+  font-family: Russia-Bold;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 46px;
+  text-transform: uppercase;
+  margin-top: 46px;
+  letter-spacing: 1px;
+}
+.ticket-prices-children p {
+  color: #9fa3a7;
+  font-family: Russia-LightItalic;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 26px;
+  margin-top: -5px;
+}
+.ticket-prices-children img {
+  margin-top: 12px;
+}
+.ticket-prices-children .wr-prices-children {
+  margin: 0 auto;
+  position: relative;
+  width: 140px;
+  height: 140px;
+  background-color: white;
+  text-align: center;
+  border-radius: 50%;
+  margin-top: -44px;
+}
+.ticket-prices-children .wr-prices-children .prices-children {
+  width: 76px;
+  height: 43px;
+  font-size: 60px;
+  line-height: 46px;
+  color: #212121;
+  font-family: Russia-Regular;
+  font-weight: 400;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 49px;
+  margin-left: -24px;
+}
+.ticket-prices-children .wr-prices-children .prices-children-dollar {
+  font-size: 30px;
+  font-family: Russia-LightItalic;
+  display: inline-block;
+  position: absolute;
+  margin: 0 auto;
+  margin-top: 51px;
+}
+.ticket-prices-children a {
+  padding: 19px 20px;
+  color: white;
+  font-family: MuseoSansCyrl_500;
+  font-size: 16px;
+  line-height: 38px;
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #75d250 0%, #7be451 100%, #86e960 100%);
+  background-image: linear-gradient(to top, #75d250 0%, #7be451 100%, #86e960 100%);
+  border-radius: 4px;
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+.ticket-prices-children a:hover {
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  border-radius: 4px;
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08);
+}
+.ticket-prices-children a:active {
+  background-color: #7be451;
+  background-image: -webkit-linear-gradient(bottom, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%);
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=main.css.map */

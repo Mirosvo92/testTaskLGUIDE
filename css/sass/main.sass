@@ -1,0 +1,1156 @@
+@import url(reset.css)
+$MuseoSansCyrl700: MuseoSansCyrl700
+$MuseoSansCyrl_300: MuseoSansCyrl_300
+$MuseoSansCyrl_500: MuseoSansCyrl_500
+$Russia-Bold: Russia-Bold
+$Russia-LightItalic: Russia-LightItalic
+$Russia-Light: Russia-Light
+$Russia-Regular: Russia-Regular
+$mainSize: 18px
+
+
+
+
+
+/* container */
+
+
+.container
+	position: relative
+	width: 1170px
+	margin-left: auto
+	margin-right: auto
+	height: 100%
+	padding: 0px 10px
+
+
+
+.clearfix
+	&:before
+		content: " "
+		display: table
+	&:after
+		content: " "
+		display: table
+		clear: both
+
+a
+	text-decoration: none
+
+
+
+/* HEADER */
+
+
+	
+
+.logo
+	float: left
+	padding-top: 30px
+	
+
+
+/* main-nav */
+
+.main-nav
+	float: left
+	ul
+		display: inline-block
+		padding-top: 75px
+		margin-left: 58px
+		li
+			display: inline
+			padding-left: 24px
+			a
+				font-family: $MuseoSansCyrl700
+				font-size: 14px
+				line-height: 14px
+				text-transform: uppercase
+				color: #212121
+				text-decoration: none
+				letter-spacing: 1px
+				&:hover
+					color: #f79038
+		.hov-fc
+			position: relative
+			z-index: 100
+
+
+body .main-nav .hov-fc_active
+	position: absolute
+	z-index: 99
+	width: 24px
+	height: 51px
+	top: -24px
+	left: 52px
+	display: none
+
+/* languages */
+
+.languages
+	float: right
+	padding-top: 73px
+	padding-right: 25px
+	.lang_ru
+		font-family: $MuseoSansCyrl700
+		font-size: 16px
+		line-height: 14px
+		text-transform: uppercase
+		display: inline-block
+		cursor: pointer
+		margin-right: 12px
+	.lang_eng
+		font-family: $MuseoSansCyrl700
+		font-size: 16px
+		line-height: 14px
+		text-transform: uppercase
+		display: inline-block
+		cursor: pointer
+		color: #a1a8ab
+		margin-right: -25px
+
+
+/* VIDEO AND BOOKING */
+
+
+
+	
+
+.photo-with-guide
+	padding-top: 87px
+	float: left
+	h2
+		width: 365px
+		height: 101px
+		color: #212121
+		font-family: $Russia-Bold
+		font-size: 48px
+		font-weight: 700
+		line-height: 58px
+		padding-left: 40px
+	h3
+		width: 381px
+		height: 39px
+		color: #b8b9ba
+		font-family: $MuseoSansCyrl_300
+		font-size: 16px
+		line-height: 24px
+		padding-top: 36px
+		padding-left: 40px
+
+
+.wr-booking-butt
+	padding-top: 80px
+	width: 210px
+	height: 56px
+	padding-left: 40px
+
+.booking-butt
+	padding: 19px 20px
+	color: white
+	font-family: $MuseoSansCyrl_500
+	font-size: 16px
+	line-height: 14px
+	background-color: #7be451
+	background-image: linear-gradient(to top, #75d250 0%, #7be451 100%, #86e960 100%)
+	border-radius: 4px
+	box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08)
+	cursor: pointer
+	&:hover
+		background-color: #7be451
+		background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%)
+		border-radius: 4px
+		box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08)
+	&:active
+		background-color: #7be451
+		background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%)
+		border-radius: 4px
+		box-shadow: none
+
+
+/* photographer and text */
+
+.container-max
+	position: relative
+	width: 1250px
+	margin-left: auto
+	margin-right: auto
+	height: 100%
+	padding: 0px 10px
+
+
+
+.photographer
+	position: relative
+	display: inline-block
+	.photo
+		position: absolute
+		left: -27px
+		top: 7px
+		z-index: 99
+		animation-delay: 1s
+	p
+		width: 171px
+		height: 45px
+		color: #b8b9ba
+		font-family: $Russia-LightItalic
+		font-size: $mainSize
+		font-weight: 300
+		font-style: italic
+		line-height: 27px
+		z-index: 100
+		position: relative
+		margin-left: 211px
+		margin-top: 96px
+
+
+/* phoro hotel */
+
+.phoro-hotel
+	float: left
+	height: 543px
+	overflow-y: hidden
+	margin-top: 50px
+	margin-left: 132px
+	
+.line
+	width: 100%
+	height: 2px
+	background-color: #edeff0
+	float: left
+		
+/* video */
+
+.video-about-us
+	position: absolute
+	top: 33%
+	left: 36%
+	width: 310px
+	height: 310px
+	text-align: center
+	background-image: url(../img/video_bg.svg)
+	background-repeat: no-repeat
+	background-size: cover
+	background-position-x: center
+	background-position-y: top
+	animation-delay: 1s
+	p
+		color: #7f8992
+		font-family: $Russia-Light 
+		font-size: 16px
+		font-weight: 300
+		line-height: 54px
+		margin-top: 70px
+
+.play-video-wr
+	padding-top: 39px
+	margin-left: -14px
+	.play-video-button
+		padding: 41px 51px
+		border-radius: 50%
+		background-color: #7be451
+		background-image: linear-gradient(to top, #75d250 0%, #7be451 100%, #86e960 100%)
+		box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08)
+		cursor: pointer
+		background-image: url(../img/butt_play.svg)
+		background-repeat: no-repeat
+		background-position-x: 56%
+		background-position-y: 49%
+		&:hover
+			background-color: #fb943d
+			background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%)
+			border-radius: 50%
+			box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08)
+			background-image: url(../img/butt_play.svg)
+			background-repeat: no-repeat
+			background-position-x: 56%
+			background-position-y: 49%
+		&:active
+			background-color: #fb943d
+			background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%)
+			border-radius: 50%
+			box-shadow: none
+			background-image: url(../img/butt_play.svg)
+			background-repeat: no-repeat
+			background-position-x: 56%
+			background-position-y: 49%
+	.look
+		color: #f79038
+		font-family: $MuseoSansCyrl_300
+		font-size: 16px
+		line-height: 27px
+		cursor: pointer
+		margin-top: 48px
+
+
+.video-modal-window
+	width: 100%
+	height: 100%
+	background: rgba(0, 0, 0, 0.7)
+	position: fixed
+	top: 0
+	left: 0
+	z-index: 999
+	display: none
+
+.video-wr
+	margin: 6% auto
+	width: 800px
+	height: 500px
+
+.close-video
+	color: #fff
+	font-size: 50px
+	font-family: $MuseoSansCyrl_300
+	cursor: pointer
+	position: absolute
+	top: 25px
+	right: 55px
+
+
+/* TOUR INFARMATION */
+
+.abou-tour
+	color: #212121
+	font-family: $Russia-Bold
+	font-size: 48px
+	font-weight: 700
+	line-height: 60px
+	text-align: center
+	height: 125px
+	width: 89%
+	margin-top: 113px
+	margin-left: auto
+	margin-right: auto
+	background-image: url(../img/two_cicle.svg)
+	background-repeat: no-repeat
+	background-position-x: right
+	background-position-y: 48px
+
+
+
+
+.photo-description
+	width: 100%
+	margin-top: 25px
+	margin-left: 100px
+
+.photo-town
+	float: left
+
+
+
+.description
+	float: left
+	text-align: left
+	width: 375px
+	margin-left: 80px
+	h4
+		color: #212121
+		font-family: $Russia-Bold
+		font-size: 16px
+		font-weight: 700
+		line-height: 24px
+		text-transform: uppercase
+		padding-top: 6px
+		width: 270px
+	p
+		color: #7f8992
+		font-family: $MuseoSansCyrl_300
+		font-size: $mainSize
+		line-height: 26px
+		padding-top: 24px
+		
+
+/* CALEBDAR AND DETAILS */
+
+
+.main-calendar
+	margin-top: 52px
+
+.wr-included-details
+	float: left
+
+/* details */
+
+.details
+	margin-left: 114px
+	h3
+		color: #212121
+		font-family: $Russia-Bold
+		font-size: 48px
+		font-weight: 700
+		line-height: 114px
+	
+
+.days
+	margin-top: 20px
+	img
+		float: left
+		width: 44px
+		height: 44px
+		display: block
+	h4
+		color: #212121
+		font-family: $Russia-Bold
+		font-size: 16px
+		font-weight: 700
+		line-height: 26px
+		text-transform: uppercase
+		margin-left: 65px
+		line-height: 10px
+	p
+		color: #7f8992
+		font-family: $MuseoSansCyrl_300
+		font-size: $mainSize
+		line-height: 27px
+		width: 216px
+		margin-left: 65px
+		line-height: 45px
+
+
+.clock
+	margin-top: 36px
+	img
+		float: left
+		width: 44px
+		height: 44px
+		display: block
+		letter-spacing: 1px
+	h4
+		color: #212121
+		font-family: $Russia-Bold
+		font-size: 16px
+		font-weight: 700
+		line-height: 26px
+		text-transform: uppercase
+		margin-left: 65px
+		line-height: 7px
+		letter-spacing: 1px
+	p
+		color: #7f8992
+		font-family: $MuseoSansCyrl_300
+		font-size: $mainSize
+		line-height: 27px
+		width: 216px
+		margin-left: 65px
+		line-height: 53px	
+
+.meeting-point
+	margin-top: 36px
+	img
+		float: left
+		width: 44px
+		height: 44px
+		display: block
+		letter-spacing: 1px
+	h4
+		color: #212121
+		font-family: $Russia-Bold
+		font-size: 16px
+		font-weight: 700
+		line-height: 45px
+		text-transform: uppercase
+		margin-left: 65px
+		line-height: 14px
+		letter-spacing: 1px
+	p
+		color: #7f8992
+		font-family: $MuseoSansCyrl_300
+		font-size: $mainSize
+		line-height: 27px
+		width: 216px
+		margin-left: 65px
+		line-height: 63px
+	.point-text
+		line-height: 7px
+		color: #7f8992
+		font-family: $Russia-Light
+		font-size: 16px
+		font-weight: 300
+		font-style: italic
+
+
+
+.group-members
+	margin-top: 50px
+	img
+		float: left
+		width: 44px
+		height: 44px
+		display: block
+		letter-spacing: 1px
+	h4
+		color: #212121
+		font-family: $Russia-Bold
+		font-size: 16px
+		font-weight: 700
+		line-height: 26px
+		text-transform: uppercase
+		margin-left: 65px
+		line-height: 16px
+		letter-spacing: 1px
+	p
+		color: #7f8992
+		font-family: $MuseoSansCyrl_300
+		font-size: $mainSize
+		line-height: 27px
+		width: 216px
+		margin-left: 65px
+		line-height: 45px
+
+
+/* included */
+
+
+.included-tur
+	margin-top: 80px
+	margin-left: 71px
+	h2
+		color: #212121
+		font-family: $Russia-Bold
+		font-size: 48px
+		font-weight: 700
+		line-height: 60px
+		margin-left: 35px
+
+
+.included-tur-description
+	margin-top: 44px
+	.desc-hiking
+		span
+			color: #7be352
+			font-family: $Russia-Light
+			font-size: 30px
+			font-weight: 300
+			line-height: 24px
+			float: left
+		h4
+			font-family: $MuseoSansCyrl_300
+			font-size: $mainSize
+			line-height: 27px
+			color: #f79038
+			margin-left: 40px
+			line-height: 16px
+		p
+			width: 267px
+			font-family: $MuseoSansCyrl_300
+			font-size: $mainSize
+			line-height: 27px
+			color: #9fa3a7
+			margin-left: 40px
+			margin-top: 8px
+			letter-spacing: 1px
+
+/* min-photo */
+
+.min-photo
+	margin-top: 32px
+	span
+		color: #7be352
+		font-family: $Russia-Light
+		font-size: 30px
+		font-weight: 300
+		line-height: 28px
+		float: left	
+	p
+		width: 255px
+		height: 125px
+		font-family: $MuseoSansCyrl_300
+		font-size: $mainSize
+		line-height: 18px
+		color: #9fa3a7
+		margin-left: 40px
+		margin-top: -3px
+		letter-spacing: 1px	
+		span
+			font-family: $MuseoSansCyrl_300
+			font-size: $mainSize
+			line-height: 27px
+			color: #f79038
+			float: none
+
+
+/* tasting */
+
+.tasting
+	margin-top: -15px
+	span
+		color: #7be352
+		font-family: $Russia-Light
+		font-size: 30px
+		font-weight: 300
+		line-height: 30px
+		float: left	
+	p
+		width: 262px
+		height: 125px
+		font-family: $MuseoSansCyrl_300
+		font-size: $mainSize
+		line-height: 22px
+		color: #9fa3a7
+		margin-left: 40px
+		margin-top: 8px
+		letter-spacing: 1px	
+		span
+			font-family: $MuseoSansCyrl_300
+			font-size: $mainSize
+			line-height: 27px
+			color: #f79038
+			float: none
+	
+
+/* advice */
+
+
+.advice
+	margin-top: -15px
+	span
+		color: #7be352
+		font-family: $Russia-Light
+		font-size: 30px
+		font-weight: 300
+		line-height: 30px
+		float: left	
+	p
+		width: 270px
+		height: 125px
+		font-family: $MuseoSansCyrl_300
+		font-size: $mainSize
+		line-height: 27px
+		color: #9fa3a7
+		margin-left: 40px
+		margin-top: 8px
+		letter-spacing: 1px	
+		span
+			font-family: $MuseoSansCyrl_300
+			font-size: $mainSize
+			line-height: 27px
+			color: #f79038
+			float: none
+	
+/* souvenir */
+
+.souvenir
+	margin-top: -58px
+	span
+		color: #7be352
+		font-family: $Russia-Light
+		font-size: 30px
+		font-weight: 300
+		line-height: 30px
+		float: left	
+	p
+		width: 270px
+		height: 125px
+		font-family: $MuseoSansCyrl_300
+		font-size: $mainSize
+		line-height: 27px
+		color: #9fa3a7
+		margin-left: 40px
+		margin-top: 8px
+		letter-spacing: 1.2px	
+		span
+			font-family: $MuseoSansCyrl_300
+			font-size: $mainSize
+			line-height: 27px
+			color: #f79038
+			float: none
+
+.photos-shoes
+	width: 400px
+	height: 400px
+	background-image: url(../img/sneakers_bg.svg)
+	background-repeat: no-repeat
+	background-position-x: top
+	background-position-y: center
+	img
+		margin-top: 87px
+		margin-left: 124px
+
+
+
+/* calendar of events */
+
+
+.wr-calendar-events-about
+	width: 768px
+	min-height: 855px
+	float: right
+	background-image: url(../img/bg_calendar1.svg)
+	background-repeat: no-repeat
+	background-position-x: 97px
+	background-position-y: 30px
+	position: relative
+
+
+.calendar-events
+	margin-top: 125px
+	margin-left: 235px
+
+
+
+/* settings of calendar  */
+
+body
+	.datepicker-here
+		.datepicker-inline
+			.datepicker
+				border: none
+				color: #b8b9ba
+				font-family: $MuseoSansCyrl_500
+				font-size: 16px
+				line-height: 27px
+				background: none
+				.datepicker--nav
+					width: 141%
+					border: none
+					.datepicker--nav-action
+						&:hover
+							background-color: #fff
+						svg
+							path
+								&:hover
+									stroke: #fb943d
+	
+
+
+body
+	.datepicker--content
+		width: 141%						
+	
+body
+	.datepicker--nav-title
+		color: #212121
+		font-family: $Russia-Regular
+		font-size: 30px
+		font-weight: 400
+		line-height: 27px
+		i
+			color: #212121
+			font-family: $Russia-Regular
+			font-size: 30px
+			font-weight: 400
+			line-height: 27px
+
+	
+body
+	.datepicker--day-name
+		color: #7f8992
+		font-family: $Russia-Bold
+		font-size: 16px
+		font-weight: 700
+		line-height: 27px
+		text-transform: uppercase
+
+
+body
+	.datepicker--cell-day
+		background-color: #e5e5e6
+		width: 13.5%
+		height: 20%
+
+body
+	.datepicker--cells
+		width: 366px
+		height: 256px
+
+
+body
+	.datepicker--cell
+		border-radius: 0px
+		border: 0.5px solid #fff
+
+
+body
+	.free-places
+		background-color: #7be352
+
+body
+	.busy-places
+		background-color: #f76e55
+
+
+/* colors  of calendar (descr) */
+
+
+.colors-calendar
+	margin-top: 37px
+	margin-left: 243px
+	.calendar-green
+		font-family: $MuseoSansCyrl_300
+		font-size: $mainSize
+		line-height: 34px
+		span
+			color: #7be352
+			font-weight: 900
+	.calendar-tomato
+		font-family: $MuseoSansCyrl_300
+		font-size: $mainSize
+		line-height: 39px
+		span
+			color: #f76e55
+			font-weight: 900
+	.calendar-grey
+		font-family: $MuseoSansCyrl_300
+		font-size: $mainSize
+		line-height: 40px
+		span
+			color: #b8b9ba
+			font-weight: 900
+
+
+/* button reserve place */
+
+
+.wr-button-reserve
+	margin-left: 248px
+	margin-top: 85px
+	a
+		padding: 19px 20px
+		color: white
+		font-family: $MuseoSansCyrl_500
+		font-size: 16px
+		line-height: 14px
+		background-color: #7be451
+		background-image: linear-gradient(to top, #75d250 0%, #7be451 100%, #86e960 100%)
+		border-radius: 4px
+		box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08)
+		cursor: pointer
+		&:hover
+			background-color: #7be451
+			background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%)
+			border-radius: 4px
+			box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08)
+		&:active
+			background-color: #7be451
+			background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%)
+			border-radius: 4px
+			box-shadow: none
+
+.watch-img
+	position: absolute
+	right: 52px
+	bottom: 54px
+
+
+/* about company  */
+
+
+.wr-about-company
+	width: 400px
+	min-height: 730px
+	float: right
+	text-align: left
+	width: 680px
+	margin-top: 60px
+	background-image: url(../img/bg_about.svg)
+	background-repeat: no-repeat
+	background-position-x: 11px
+	background-position-y: 42px
+	position: relative
+	.about-company-text
+		margin-top: 22px
+		margin-left: 157px
+		h2
+			color: #212121
+			font-family: $Russia-Bold
+			font-size: 48px
+			font-weight: 700
+			line-height: 46px
+		p
+			&:nth-child(2)
+				color: #9fa3a7
+				font-family: $MuseoSansCyrl_300
+				font-size: $mainSize
+				line-height: 26px
+				padding-top: 46px
+				width: 470px
+			&:nth-child(3)
+				color: #9fa3a7
+				font-family: $MuseoSansCyrl_300
+				font-size: $mainSize
+				line-height: 26px
+				padding-top: 21px
+				width: 470px
+			&:nth-child(4)
+				color: #9fa3a7
+				font-family: $MuseoSansCyrl_300
+				font-size: $mainSize
+				line-height: 26px
+				padding-top: 25px
+				width: 470px
+			&:nth-child(5)
+				color: #9fa3a7
+				font-family: $MuseoSansCyrl_300
+				font-size: $mainSize
+				line-height: 26px
+				padding-top: 24px
+				width: 470px
+
+	
+
+
+/* ticket prices */
+
+.ticket-prices
+	text-align: center
+	h2
+		padding-top: 15px
+		color: #212121
+		font-family: $Russia-Bold
+		font-size: 48px
+		font-weight: 700
+		line-height: 60px
+
+/* ticket_prices-adults */
+
+
+.ticket-prices-adults
+	width: 368px
+	height: 560px
+	background-color: white
+	border: 2px solid #eceded
+	margin-top: 69px
+	display: inline-block
+	box-sizing: border-box
+	float: left
+	h3
+		color: #212121
+		font-family: $Russia-Bold
+		font-size: $mainSize
+		font-weight: 900
+		line-height: 46px
+		text-transform: uppercase
+		margin-top: 46px
+		letter-spacing: 1px
+	p
+		color: #9fa3a7
+		font-family: $Russia-LightItalic
+		font-size: 16px
+		font-weight: 300
+		font-style: italic
+		line-height: 26px
+		margin-top: -5px
+	img
+		margin-top: 12px
+	.wr-adults-prise
+		margin: 0 auto
+		position: relative
+		width: 140px
+		height: 140px
+		background-color: white
+		text-align: center
+		border-radius: 50%
+		margin-top: -44px
+		.adults-price
+			width: 76px
+			height: 43px
+			font-size: 60px
+			line-height: 46px
+			color: #212121
+			font-family: $Russia-Regular
+			font-weight: 400
+			display: inline-block
+			margin: 0 auto
+			margin-top: 49px
+			margin-left: -24px
+		.adults-price-dollar
+			font-size: 30px
+			font-family: $Russia-LightItalic
+			display: inline-block
+			position: absolute
+			margin: 0 auto
+			margin-top: 51px
+	a
+		padding: 19px 20px
+		color: white
+		font-family: $MuseoSansCyrl_500
+		font-size: 16px
+		line-height: 38px
+		background-color: #7be451
+		background-image: linear-gradient(to top, #75d250 0%, #7be451 100%, #86e960 100%)
+		border-radius: 4px
+		box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08)
+		cursor: pointer
+		position: relative
+		z-index: 100
+		&:hover
+			background-color: #7be451
+			background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%)
+			border-radius: 4px
+			box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08)
+		&:active
+			background-color: #7be451
+			background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%)
+			border-radius: 4px
+			box-shadow: none
+
+
+
+
+/* ticket_prices-groups */
+
+.ticket-prices-groups
+	width: 368px
+	height: 560px
+	background-color: white
+	border: 2px solid #eceded
+	margin-top: 69px
+	display: inline-block
+	margin-left: 29px
+	float: left
+	h3
+		color: #212121
+		font-family: $Russia-Bold
+		font-size: $mainSize
+		font-weight: 900
+		line-height: 46px
+		text-transform: uppercase
+		margin-top: 46px
+		letter-spacing: 1px
+	p
+		color: #9fa3a7
+		font-family: $Russia-LightItalic
+		font-size: 16px
+		font-weight: 300
+		font-style: italic
+		line-height: 26px
+		margin-top: -5px
+	img
+		margin-top: 12px
+	.wr-prices-groups
+		margin: 0 auto
+		position: relative
+		width: 140px
+		height: 140px
+		background-color: white
+		text-align: center
+		border-radius: 50%
+		margin-top: -44px
+		.prices-groups
+			width: 76px
+			height: 43px
+			font-size: 60px
+			line-height: 46px
+			color: #212121
+			font-family: $Russia-Regular
+			font-weight: 400
+			display: inline-block
+			margin: 0 auto
+			margin-top: 49px
+			margin-left: -24px
+		.prices-groups-dollar
+			font-size: 30px
+			font-family: $Russia-LightItalic
+			display: inline-block
+			position: absolute
+			margin: 0 auto
+			margin-top: 51px
+	a
+		padding: 19px 20px
+		color: white
+		font-family: $MuseoSansCyrl_500
+		font-size: 16px
+		line-height: 38px
+		background-color: #7be451
+		background-image: linear-gradient(to top, #75d250 0%, #7be451 100%, #86e960 100%)
+		border-radius: 4px
+		box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08)
+		cursor: pointer
+		position: relative
+		z-index: 100
+		&:hover
+			background-color: #7be451
+			background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%)
+			border-radius: 4px
+			box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08)
+		&:active
+			background-color: #7be451
+			background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%)
+			border-radius: 4px
+			box-shadow: none
+
+
+/* ticket-prices-children*/
+
+.ticket-prices-children
+	width: 368px
+	height: 560px
+	background-color: white
+	border: 2px solid #eceded
+	margin-top: 69px
+	display: inline-block
+	margin-left: 29px
+	float: left
+	h3
+		color: #212121
+		font-family: $Russia-Bold
+		font-size: $mainSize
+		font-weight: 900
+		line-height: 46px
+		text-transform: uppercase
+		margin-top: 46px
+		letter-spacing: 1px
+	p
+		color: #9fa3a7
+		font-family: $Russia-LightItalic
+		font-size: 16px
+		font-weight: 300
+		font-style: italic
+		line-height: 26px
+		margin-top: -5px
+	img
+		margin-top: 12px
+	.wr-prices-children
+		margin: 0 auto
+		position: relative
+		width: 140px
+		height: 140px
+		background-color: white
+		text-align: center
+		border-radius: 50%
+		margin-top: -44px
+		.prices-children
+			width: 76px
+			height: 43px
+			font-size: 60px
+			line-height: 46px
+			color: #212121
+			font-family: $Russia-Regular
+			font-weight: 400
+			display: inline-block
+			margin: 0 auto
+			margin-top: 49px
+			margin-left: -24px
+		.prices-children-dollar
+			font-size: 30px
+			font-family: $Russia-LightItalic
+			display: inline-block
+			position: absolute
+			margin: 0 auto
+			margin-top: 51px
+	a
+		padding: 19px 20px
+		color: white
+		font-family: $MuseoSansCyrl_500
+		font-size: 16px
+		line-height: 38px
+		background-color: #7be451
+		background-image: linear-gradient(to top, #75d250 0%, #7be451 100%, #86e960 100%)
+		border-radius: 4px
+		box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08)
+		cursor: pointer
+		position: relative
+		z-index: 100
+		&:hover
+			background-color: #7be451
+			background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%)
+			border-radius: 4px
+			box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.08)
+		&:active
+			background-color: #7be451
+			background-image: linear-gradient(to top, #22e1ff 0%, #f76e55 0%, #f79038 100%)
+			border-radius: 4px
+			box-shadow: none
+
